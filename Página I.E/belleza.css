@@ -1,0 +1,84 @@
+*
+body{
+    margin: 0cm;
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1,h2,h3,h4.h5{
+    font-family: 'REM', sans-serif;
+}
+
+.cover{
+    height: 400px;
+    background-image: url(rsz_31tengyart-dtgyj9okq_w-unsplash.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 15cm;
+    background-color: rgba(36, 32, 31, 0.719);
+    background-blend-mode: darken;
+    background-position: fixed;
+}
+
+.cover-small{
+    height: 200px;
+    background-blend-mode: normal;
+    background-position: center;
+}
+
+.MargenPerucho{
+    margin-top: 3cm;
+}
+
+.MargenTegucigalpa{
+    margin-top: 1cm;
+}
+
+.ImagenPicosa{
+    margin-left: 1.5cm;
+}
+
+.Messi{
+    text-align: justify;
+}
+
+.Graficoso{
+    width: 75%;
+    height: auto;
+    align-self: center;
+}
+
+.card {
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+}
+
+.card-title{
+    min-height: 3rem;
+}
+
+.card-text{
+    min-height: 10rem;
+}
+
+.product-stripe, .slider{
+    overflow-x: scroll;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.stripe-container, .slider-container{
+    display: flex;
+}
+
+.stripe-container .card{
+    width:300px;
+    flex-shrink:0;
+    margin-right:1rem;
+}
+
+.FinalDelfin{
+    height: 400px;
+    background-color:rgb(19, 59, 31);
+    color: white;
+}
